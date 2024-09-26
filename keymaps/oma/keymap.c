@@ -75,7 +75,7 @@ LSFT_T(KC_CAPS), RGB_HUI, RGB_SAI, RGB_VAI, RGB_SPI, RGB_MOD,                   
 LSFT_T(KC_CAPS),KC_GRV,S(KC_GRV),KC_PSLS, A(KC_1),A(KC_NUBS),                   XXXXXXX,A(KC_LBRC),A(KC_RBRC),KC_EQL,S(KC_GRV),XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |-------+----------+----------+--------+--------+--------|
     //        ,                                                               ,        ,    {     ,      }  ,                  , Shift
-      KC_LCTL, XXXXXXX , XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                    XXXXXXX,A(KC_QUOT),A(KC_BSLS), XXXXXXX, XXXXXXX, KC_RSFT,
+      KC_LCTL, XXXXXXX , XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                    XXXXXXX,A(KC_QUOT),A(KC_BSLS), XXXXXXX, KC_LOPT, KC_RSFT,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LGUI, _______,  KC_SPC,     KC_ENT, _______, KC_LOPT
                                       //`--------------------------'  `--------------------------'
