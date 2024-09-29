@@ -43,7 +43,7 @@ LSFT_T(KC_CAPS),  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                     
 
     [_FIRST] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-       KC_ESC, XXXXXXX, XXXXXXX, KC_LOPT, KC_RSFT, XXXXXXX,                      LSG(KC_7),    KC_7,    KC_8,    KC_9, KC_PAST, KC_PMNS,
+       KC_ESC, XXXXXXX, KC_LCTL, KC_LOPT, KC_RSFT, XXXXXXX,                      LSG(KC_7),    KC_7,    KC_8,    KC_9, KC_PAST, KC_PMNS,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
   //              ""  ,   ''   ,   ``   ,    ^     ,     ~    ,
 LSFT_T(KC_CAPS), KC_AT, KC_MINS, KC_LBRC,S(KC_LBRC),A(KC_SCLN),                  XXXXXXX,    KC_4,    KC_5,    KC_6, KC_PSLS, KC_PPLS,
@@ -56,7 +56,7 @@ LSFT_T(KC_CAPS), KC_AT, KC_MINS, KC_LBRC,S(KC_LBRC),A(KC_SCLN),                 
 
     [_SECOND] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-       KC_ESC, XXXXXXX, XXXXXXX, KC_LOPT, KC_RSFT, RGB_TOG,                      KC_VOLD, KC_VOLU, KC_MPRV, KC_MNXT, KC_HOME, KC_BSPC,
+       KC_ESC, XXXXXXX, KC_LCTL, KC_LOPT, KC_RSFT, RGB_TOG,                      KC_VOLD, KC_VOLU, KC_MPRV, KC_MNXT, KC_HOME, KC_BSPC,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
 LSFT_T(KC_CAPS), RGB_HUI, RGB_SAI, RGB_VAI, RGB_SPI, RGB_MOD,                    KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT,  KC_END, KC_DEL,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
@@ -72,10 +72,10 @@ LSFT_T(KC_CAPS), RGB_HUI, RGB_SAI, RGB_VAI, RGB_SPI, RGB_MOD,                   
       KC_ESC, KC_EXLM, ALGR(KC_2), ALGR(KC_3), KC_DLR, KC_CIRC,                  XXXXXXX, S(KC_8), S(KC_9), KC_PEQL, KC_UNDS, KC_BSPC,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
   //          ,  <   ,   "    ,   /   ,    |   ,    \     ,                   ,        ,    [     ,      ]   ,  ¡   ,   >     , Empty
-LSFT_T(KC_CAPS),KC_GRV,S(KC_GRV),KC_PSLS, A(KC_1),A(KC_NUBS),                   XXXXXXX,A(KC_LBRC),A(KC_RBRC),KC_EQL,S(KC_GRV),XXXXXXX,
+LSFT_T(KC_CAPS),KC_GRV,S(KC_GRV),KC_PSLS, A(KC_1),A(KC_NUBS),                   XXXXXXX,ALGR(KC_LBRC),ALGR(KC_RBRC),KC_EQL,S(KC_GRV),XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |-------+----------+----------+--------+--------+--------|
     //        ,                                                               ,        ,    {     ,      }  ,                  , Shift
-      KC_LCTL, XXXXXXX , XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                    XXXXXXX,A(KC_QUOT),A(KC_BSLS), XXXXXXX, KC_LOPT, KC_RSFT,
+      KC_LCTL, XXXXXXX , XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                    XXXXXXX,ALGR(KC_QUOT),ALGR(KC_BSLS), XXXXXXX, KC_LOPT, KC_RSFT,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LGUI, _______,  KC_SPC,     KC_ENT, _______, KC_LOPT
                                       //`--------------------------'  `--------------------------'
