@@ -36,7 +36,7 @@ LSFT_T(KC_CAPS),  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                     
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LCTL,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                         KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH, KC_ESC,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                         KC_LOPT,MO(_FIRST),KC_LGUI,   KC_ENT, LT(_SECOND, KC_SPC), KC_LOPT
+                                         KC_LOPT,MO(_FIRST),KC_LGUI,   KC_ENT, LT(_SECOND, KC_SPC), KC_ROPT
                                       //`--------------------------'  `--------------------------'
 
   ),
@@ -62,7 +62,7 @@ LSFT_T(KC_CAPS), RGB_HUI, RGB_SAI, RGB_VAI, RGB_SPI, RGB_MOD,                   
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LCTL, RGB_HUD, RGB_SAD, RGB_VAD, RGB_SPD, XXXXXXX,                      KC_MUTE, KC_MPLY, XXXXXXX, XXXXXXX, XXXXXXX, KC_ESC,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LOPT, MO(_THIRD), KC_LGUI,     KC_ENT, _______, KC_LOPT
+                                          KC_LOPT, MO(_THIRD), KC_LGUI,     KC_ENT, _______, KC_ROPT
                                       //`--------------------------'  `--------------------------'
   ),
 
@@ -77,7 +77,7 @@ LSFT_T(KC_CAPS),KC_GRV,S(KC_GRV),KC_PSLS,ALGR(KC_1),ALGR(KC_NUBS),              
     //        ,                                                                ,        ,   {    ,    }   ,        ,        ,        ,
       KC_LCTL, XXXXXXX , XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                    XXXXXXX,ALGR(KC_QUOT),ALGR(KC_BSLS), XXXXXXX, KC_LOPT, KC_ESC,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LOPT, _______, KC_LGUI,     KC_ENT, _______, KC_LOPT
+                                          KC_LOPT, _______, KC_LGUI,     KC_ENT, _______, KC_ROPT
                                       //`--------------------------'  `--------------------------'
   )
 };
