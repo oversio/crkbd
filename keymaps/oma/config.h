@@ -31,6 +31,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #   define SPLIT_MODS_ENABLE
 #   define SPLIT_OLED_ENABLE
 #   define OLED_FONT_H "keyboards/crkbd/keymaps/oma/glcdfont.c"
+#   define OLED_FONT_END 243
 #   define OLED_TIMEOUT 30000
 #endif
 
