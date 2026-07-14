@@ -46,7 +46,7 @@ LSFT_T(KC_CAPS),  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                     
        KC_ESC, XXXXXXX, KC_LCTL, KC_LOPT, KC_RSFT, XXXXXXX,                    LSG(KC_7),    KC_7,    KC_8,    KC_9, KC_PAST, KC_PMNS,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
   //              ""  ,   ''   ,   ``   ,    ^     ,     ~    ,
-LSFT_T(KC_CAPS), KC_AT, KC_MINS, KC_LBRC,S(KC_LBRC),A(KC_SCLN),                  XXXXXXX,    KC_4,    KC_5,    KC_6, KC_PSLS, KC_PPLS,
+LSFT_T(KC_CAPS), KC_AT, KC_MINS, KC_LBRC,S(KC_LBRC),ALGR(KC_SCLN),              XXXXXXX,    KC_4,    KC_5,    KC_6, KC_PSLS, KC_PPLS,
   //|----------+------+--------+--------+----------+----------|                |--------+--------+--------+--------+--------+--------|
       KC_LCTL,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                      XXXXXXX,    KC_1,    KC_2,    KC_3, KC_PERC, KC_ESC,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|

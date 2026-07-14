@@ -34,6 +34,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #   define OLED_TIMEOUT 30000
 #endif
 
+#ifdef RGB_MATRIX_ENABLE
+    #define RGB_MATRIX_TIMEOUT 30000
+#endif
+
 #ifdef RGBLIGHT_ENABLE
     #define RGBLIGHT_EFFECT_BREATHING
     #define RGBLIGHT_EFFECT_RAINBOW_MOOD
@@ -50,4 +54,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #define RGBLIGHT_SAT_STEP 17
     #define RGBLIGHT_VAL_STEP 17
     #define RGB_DISABLE_WHEN_USB_SUSPENDED true
+    #define RGBLIGHT_TIMEOUT 30000
 #endif
